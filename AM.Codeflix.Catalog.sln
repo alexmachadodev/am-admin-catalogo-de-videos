@@ -7,9 +7,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B25F3B7F-D9C
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{6B0A2D64-8D79-47E4-80E3-B01DD81162A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AM.Codeflix.Catalog.UnitTests", "tests\AM.Codeflix.Catalog.UnitTests\AM.Codeflix.Catalog.UnitTests.csproj", "{81FAEDC4-D981-4F4A-B333-D93B0E7EBCD1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AM.Codeflix.Catalog.UnitTests", "tests\AM.Codeflix.Catalog.UnitTests\AM.Codeflix.Catalog.UnitTests.csproj", "{81FAEDC4-D981-4F4A-B333-D93B0E7EBCD1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AM.Codeflix.Catalog.Domain", "src\AM.Codeflix.Catalog.Domain\AM.Codeflix.Catalog.Domain.csproj", "{9447986F-2157-4451-A3CF-D7E416557671}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AM.Codeflix.Catalog.Domain", "src\AM.Codeflix.Catalog.Domain\AM.Codeflix.Catalog.Domain.csproj", "{9447986F-2157-4451-A3CF-D7E416557671}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AM.Codeflix.Catalog.Application", "src\AM.Codeflix.Catalog.Application\AM.Codeflix.Catalog.Application.csproj", "{8DD4BB61-2E80-48CB-BCAC-25B94F7FE5FE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +27,10 @@ Global
 		{9447986F-2157-4451-A3CF-D7E416557671}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9447986F-2157-4451-A3CF-D7E416557671}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9447986F-2157-4451-A3CF-D7E416557671}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DD4BB61-2E80-48CB-BCAC-25B94F7FE5FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DD4BB61-2E80-48CB-BCAC-25B94F7FE5FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DD4BB61-2E80-48CB-BCAC-25B94F7FE5FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DD4BB61-2E80-48CB-BCAC-25B94F7FE5FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +38,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{81FAEDC4-D981-4F4A-B333-D93B0E7EBCD1} = {6B0A2D64-8D79-47E4-80E3-B01DD81162A4}
 		{9447986F-2157-4451-A3CF-D7E416557671} = {B25F3B7F-D9CF-45D1-8717-B2188FBC5C16}
+		{8DD4BB61-2E80-48CB-BCAC-25B94F7FE5FE} = {B25F3B7F-D9CF-45D1-8717-B2188FBC5C16}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6624EB6A-0070-4296-878E-48900564C0FC}

@@ -71,7 +71,7 @@ public class DomainValidationTest
         var action = () => DomainValidation.MinLength(target, minLength, fieldName);
 
         action.Should().Throw<EntityValidationException>()
-            .WithMessage($"{fieldName} should be at leats {minLength} characters long");
+            .WithMessage($"{fieldName} should be at least {minLength} characters long");
     }
 
     public static IEnumerable<object[]> GetValuesSmallerThan(int numberOfTests = 5)
